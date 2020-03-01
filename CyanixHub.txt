@@ -1,0 +1,19 @@
+local function Synapse_x()
+warn("Synapse Detected - Cyanix Hub 0.1 - By Phoenix,Atorify and Neverscript ")
+print("Attempting to load Cyanix Hub for SynapseX...")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatPhoenix-Dev/CyanixHub/master/SynapseX.txt"))();
+end
+
+local function Proto_smasher()
+warn("Protosmasher Detected - Cyanix Hub 0.1 - By Phoenix,Atorify and Neverscript ")
+print("Attempting to load Cyanix Hub for Protosmasher...")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatPhoenix-Dev/CyanixHub/master/Protosmasher.txt"))();
+end
+
+if syn then 
+	Synapse_x()
+end
+
+if PROTOSMASHER_LOADED then
+Proto_smasher()
+end
